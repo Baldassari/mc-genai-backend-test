@@ -3,6 +3,20 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+#Virtual environment
+/.venv/*
+
+#django migrations folders
+/*/migrations/*
+
+/collectedstatic/*
+#pycharm files and folders
+#*/.idea/*
+../.idea
+#django sqlite3 db - local dep tests
+db.sqlite3
+
+
 # User-specific files
 *.rsuser
 *.suo
@@ -528,3 +542,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/SentimentAnalyzer/.idea/
